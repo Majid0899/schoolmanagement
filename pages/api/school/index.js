@@ -74,7 +74,7 @@ export default async function handler(req, res) {
 
         res
           .status(201)
-          .json({ success: true, data: result, message: "Created" });
+          .json({ success: true, message: "School Added Successfully" });
       } catch (error) {
         console.log(error);
         res
